@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estudiantes UdeA</title>
+        <link rel="stylesheet" href="estilos.css"> 
+    </head>
+    <body>
+        <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">Universidad de Antioquia</h1>
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Inicio</a>
+                </li>
+                
+                <!--Los elementos que tienen un submenu--> 
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">Proceso de matrícula<img src="assets/arrow.svg" class="menu__arrow"></a>
+                    
+                    <!--Menú desplegable--> 
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Liquidación de matrícula</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Calendario académico</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Oferta de materias</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">Ciclo de vida académica<img src="assets/arrow.svg" class="menu__arrow"></a>
+    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Plan de estudios</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Notas académicas</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Calendario académico</a>
+                        </li>
+                    </ul>
+                </li>
+    
+                <li class="menu__item  menu__item--show">
+                    <a href="#" class="menu__link">Trabajo de grado y prácticas académicas<img src="assets/arrow.svg" class="menu__arrow"></a>
+    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Prácticas académicas</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Convocatorias vigentes</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="a" class="menu__link menu__link--inside">Póliza estudiantil</a>
+                        </li>
+                    </ul>
+                </li>
+    
+            </ul>
+
+            <div class="menu__hamburguer">
+                <img src="assets/menu.svg" class="menu__img">
+            </div>
+        </section>
+
+    </nav>
+        
+        <div class="logoudea">
+                <h1 class="imagenes">Aprendiendo a utilizar imágenes</h1>
+                <img src="MultimediaHTML/Logoudea.jpg" alt="logoudea" width="300" height="300" />
+            </div>
+        
+            <div class="inicioParteSuperior">
+                <a href="a">ESTUDIANTES</a>
+                <a href="a">PROFESORES</a>
+                <a href="a">EGRESADOS</a>
+                <a href="a">JUBILADOS</a>
+                <a href="a">Nuevo cambio</a>
+            </div>
+           
+            <div class="videoudea">  
+                <h2 class="video">Aprendiendo a utilizar los vídeos</h2>
+                <video width="300" height="300" controls autoplay muted loop>
+                    <source src="MultimediaHTML/UdeAInscripcion.mp4" type="video/mp4" />
+                </video>
+            </div> 
+        
+            <div class="audioHimno">
+                <h1 class="audio">Aprendiendo a utilizar los audios</h1>
+                <audio controls autoplay preload loop>
+                    <source src="MultimediaHTML/HimnoUdeA.mp3" type="audio/mp3" />
+                </audio>
+            </div>
+        
+        <!--Referencia del JS --> 
+        <script src="app.js"></script>
+    </body>
+</html>
